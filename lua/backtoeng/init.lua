@@ -1,8 +1,18 @@
 local M = {}
 
-function M.setup()
-	-- 플러그인 초기화 코드
-	print("Hello from myplugin!")
+function M.setup(opts)
+	function M.InputToEng()
+		local result = os.execute(opts.toEng)
+	end
+	vim.keymap.set({ "n", "c", "v", "x", "i" }, "<Esc>", function()
+		M.InputToEng()
+		vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Esc>", true, true, true), "n", true)
+	end, { noremap = true, silent = true })
+
+	vim.keymap.set({ "c", "v", "x" }, "<CR>", function()
+		M.InputToEng()
+		vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<CR>", true, true, true), "n", true)
+	end, { noremap = true, silent = true })
 end
 
 return M
