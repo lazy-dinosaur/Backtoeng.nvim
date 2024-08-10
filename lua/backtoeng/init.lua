@@ -2,7 +2,7 @@ local M = {}
 
 function M.setup(opts)
 	function M.InputToEng()
-		local result = os.execute(opts.toEng)
+		os.execute(opts.toEng)
 	end
 	vim.keymap.set({ "n", "c", "v", "x", "i" }, "<Esc>", function()
 		M.InputToEng()
