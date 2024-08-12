@@ -1,8 +1,8 @@
 # Backtoeng.nvim
 
-Go to Insert mode and comeback to Normal mode with none english language.
+Go to Insert mode and comeback to Normal mode with non english language.
 
-Go to Command mode and comeback to Normal mode with none english language.
+Go to Command mode and comeback to Normal mode with non english language.
 
 There are lots of stressfull situation while jumping across between english and other input sources
 sounds familiar? then this plug in is for you!
