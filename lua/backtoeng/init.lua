@@ -5,7 +5,6 @@ function M.setup(opts)
 		os.execute(opts.toEng)
 	end
 	function M.setKeys()
-		print("keyset!")
 		vim.keymap.set({ "n", "v", "x", "i" }, "<Esc>", function()
 			M.InputToEng()
 			vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Esc>", true, true, true), "n", false)
@@ -25,7 +24,6 @@ end
 
 vim.api.nvim_create_autocmd({ "BufRead" }, {
 	callback = function()
-		print("loaded!")
 		require("backtoeng").setKeys()
 	end,
 })
