@@ -1,6 +1,6 @@
 # Backtoeng.nvim
 
-Go to Insert mode and comeback to Normal mode with non english language.
+Go to Insert mode and comeback to Normal mode with none english language.
 
 Go to Command mode and comeback to Normal mode with none english language.
 
@@ -10,7 +10,7 @@ sounds familiar? then this plug in is for you!
 ## Setup
 
 > [!IMPORTANT]
-> You need cli command line to choose englist input source!!!
+> You need cli command line to choose english input source!!!
 
 For setup you need only one cli command line to change input source to English
 
