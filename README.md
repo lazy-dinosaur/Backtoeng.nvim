@@ -4,7 +4,7 @@ Go to Insert mode and comeback to Normal mode with non english language.
 
 Go to Command mode and comeback to Normal mode with non english language.
 
-There are lots of stressfull situations while jumping across between english and other input sources
+There are lots of stressfull situations while jumping across between english and other input sources,
 sounds familiar? then this plugin is for you!
 
 ## Setup
