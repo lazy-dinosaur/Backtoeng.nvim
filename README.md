@@ -5,7 +5,7 @@ Go to Insert mode and comeback to Normal mode with non english language.
 Go to Command mode and comeback to Normal mode with non english language.
 
 There are lots of stressfull situations while jumping across between english and other input sources,
-sounds familiar? then this plugin is for you!
+doesn't that sound familiar? then this plugin is for you!
 
 ## Setup
 
@@ -45,9 +45,9 @@ For setup you need only one cli command line to change input source to English
 
 ## Feature
 
-Function of this plugin is really simple it just remap <Esc>, <CR>.
-If you press <Esc> from insert mode it act as <Esc> but before that it will trigger to change the language back to english
-It have same principle when you press <Esc> || <CR> in command mode or Fuzzy finder or visual mode
+Function of this plugin is really simple it just remap `<Esc>`, `<CR>`.
+If you press <Esc> from insert mode it act as `<Esc>` but before that it will trigger to change the language back to english
+It have same principle when you press `<Esc>` || <CR> in Command mode or Fuzzy finder or Visual mode
 
 ## Todo
 
