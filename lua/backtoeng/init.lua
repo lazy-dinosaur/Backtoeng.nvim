@@ -24,7 +24,6 @@ function M.setup(opts)
 end
 
 vim.api.nvim_create_autocmd({ "BufRead" }, {
-	-- group = BackToEngSetup,
 	callback = function()
 		print("loaded!")
 		require("backtoeng").setKeys()
