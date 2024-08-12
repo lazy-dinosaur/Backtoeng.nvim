@@ -8,7 +8,7 @@ sounds familiar? then this plug in is for you
 
 ## Setup
 
-> [Important]
+> [!IMPORTANT]
 > You need cli command line to choose englist input source!!!
 
 For setup you need only one cli command line to change input source to English
